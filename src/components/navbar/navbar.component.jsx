@@ -2,9 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Outlet } from 'react-router'
+
 
 function Navbars() {
   return (
+    <div>
+      
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">BGRemover</Navbar.Brand>
@@ -30,6 +34,8 @@ function Navbars() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Outlet/>
+    </div>
   );
 }
 

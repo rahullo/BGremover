@@ -13,9 +13,7 @@ function FrontPage(){
                 <img className='arrow' src="" alt="" />
                 <div className="card2"></div>
             </div>
-            <div className="button">
-                <button>Start</button>
-            </div>
+                <button className="button bounce-top">Start</button>
         </div>
     )
 }

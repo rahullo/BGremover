@@ -8,10 +8,14 @@ function FrontPage(){
     return(
         <div className='frontpage'>
             <Outlet/>
-            <h1 className="MyName">
-                My Name Rahul
-            </h1>
-            <img className='image' src={adam} alt=""/>
+            <div className="cards">
+                <div className="card1"></div>
+                <img className='arrow' src="" alt="" />
+                <div className="card2"></div>
+            </div>
+            <div className="button">
+                <button>Start</button>
+            </div>
         </div>
     )
 }
